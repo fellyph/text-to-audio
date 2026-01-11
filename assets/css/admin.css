@@ -1,0 +1,33 @@
+#fellyph-tts-ui {
+    padding: 10px 0;
+}
+
+#fellyph-tts-status {
+    padding: 10px;
+    border-radius: 4px;
+    background: #f0f0f1;
+    border-left: 4px solid #72aee6;
+    margin-top: 15px;
+    font-size: 13px;
+    display: none;
+}
+
+#fellyph-tts-status.success-message {
+    border-left-color: #00a32a;
+    background-color: #f0fff0;
+}
+
+#fellyph-tts-status.error-message {
+    border-left-color: #d63638;
+    background-color: #fff0f0;
+}
+
+#fellyph-tts-ui audio {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#fellyph-convert-btn {
+    width: 100%;
+}

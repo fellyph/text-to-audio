@@ -1,0 +1,23 @@
+{
+  "name": "fellyph/text-to-audio",
+  "description": "WordPress plugin to convert posts to audio using Gemini TTS",
+  "require": {
+    "wordpress/php-ai-client": "*"
+  },
+  "authors": [
+    {
+      "name": "Fellyph Cintra",
+      "email": "fellyph@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Fellyph\\TextToAudio\\": "src/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}

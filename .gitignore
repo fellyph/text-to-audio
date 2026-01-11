@@ -1,0 +1,26 @@
+# Dependencies
+/vendor/
+
+# Composer
+composer.lock
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local environment
+.env
+.env.local
+
+# Claude Code local files
+.claude/*.local.*
+.agent/
